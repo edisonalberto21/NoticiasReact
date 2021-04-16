@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "noticias-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/noticias/NoticiasWebPart.js",
+          "manifest": "./src/webparts/noticias/NoticiasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NoticiasWebPartStrings": "lib/webparts/noticias/loc/{locale}.js"
+  }
+}
